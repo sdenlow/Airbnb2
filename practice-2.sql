@@ -20,3 +20,6 @@
 -- | https://www.airbnb.com/rooms/25682427 | 16           |
 
 
+SELECT URL
+FROM listings
+WHERE accommodates = 16;
